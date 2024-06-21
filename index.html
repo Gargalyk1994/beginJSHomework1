@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Task 1
+        function getRandomNumber(max, min) {
+            return Math.random() * (max - min) + min;
+        }
+        let temperatureСelsius = getRandomNumber(50, -50);
+        console.log(`Temperature of Сelsius = ${Math.round(temperatureСelsius)}`)
+        // градусы Фаренгейта = (9 / 5) * градусы Цельсия + 32
+        let temperatureFahrenheit = (9 / 5) * temperatureСelsius + 32;
+        console.log(`Temperature of Fahrenheit = ${Math.round(temperatureFahrenheit)}`);
+
+        //Task 2
+        const firstname = "Anton";
+        const admin = firstname;
+        console.log(admin);
+
+    </script>
+</body>
+</html>
